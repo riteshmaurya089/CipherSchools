@@ -6,8 +6,9 @@
 <img width="1920" height="887" alt="cipher3" src="https://github.com/user-attachments/assets/bfd2add8-2b08-4af5-a4c5-1cd0f34b5720" />
 
 
-<img width="1536" height="1024" alt="Dataflow-Diagram" src="https://github.com/user-attachments/assets/4d30c8e1-2a98-436d-87b8-71aa3d48d1e4" />
 
+
+![dataflow](https://github.com/user-attachments/assets/333f54c1-e5e5-4d9e-ac8f-b3c88f03babd)
 
 A Full-Stack SQL Practice & AI-Assisted Learning Platform built with React, Node.js, MongoDB, and OpenAI/HuggingFace.
 
