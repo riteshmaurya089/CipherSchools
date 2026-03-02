@@ -1,4 +1,11 @@
-🚀CipherSQLStudio, SQL Learning Platform<img width="1536" height="1024" alt="Dataflow-Diagram" src="https://github.com/user-attachments/assets/4d30c8e1-2a98-436d-87b8-71aa3d48d1e4" />
+🚀CipherSQLStudio, SQL Learning Platform
+
+<img width="1920" height="851" alt="cipher1" src="https:<img width="1920" height="887" alt="cipher3" src="https://github.com/user-attachments/assets/bfd2add8-2b08-4af5-a4c5-1cd0f34b5720" />
+//github<img width="1920" height="883" alt="cipher2" src="https://github.com/user-attachments/assets/5b4c3bd1-837e-430b-8c98-ab2ad57c549b" />
+.com/user-attachments/assets/e313679d-75d3-4224-96ee-1e5d151dea1d" />
+
+
+<img width="1536" height="1024" alt="Dataflow-Diagram" src="https://github.com/user-attachments/assets/4d30c8e1-2a98-436d-87b8-71aa3d48d1e4" />
 
 
 A Full-Stack SQL Practice & AI-Assisted Learning Platform built with React, Node.js, MongoDB, and OpenAI.
@@ -58,8 +65,8 @@ OpenAI API
 📁 Folder Structure
 CipherSchools/
 │
-├── backend/
-│   ├── node_modules/
+├── backend/                               
+│   ├── node_modules/                                                                                                                                                                                    
 │   ├── src/
 │   │   ├── config/
 │   │   │   ├── dbMongo.js
