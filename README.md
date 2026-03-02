@@ -62,7 +62,7 @@ MongoDB
 
 Mongoose
 
-OpenAI API
+OpenAI/huggingface API
 
 📁 Folder Structure
 CipherSchools/
