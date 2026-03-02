@@ -1,4 +1,4 @@
-# CipherSQLStudio
+**# CipherSQLStudio
 🚀CipherSQLStudio, SQL Learning Platform
 
 A Full-Stack SQL Practice & AI-Assisted Learning Platform built with React, Node.js, MongoDB, and OpenAI.
@@ -115,9 +115,37 @@ npm install
 
 Create .env file:
 
+# =========================
+# SERVER CONFIG
+# =========================
 PORT=5000
-MONGO_URI=your_mongodb_connection_string
-OPENAI_API_KEY=your_openai_api_key
+NODE_ENV=development
+
+# =========================
+# POSTGRESQL CONFIG
+# =========================
+POSTGRES_HOST=localhost
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=your_password
+POSTGRES_DB=postgres
+POSTGRES_URI=your_POSTGRES_URI
+
+# =========================
+# MONGODB CONFIG
+# =========================
+MONGO_URI=Your_db_string
+
+# =========================
+# AI CONFIG
+# AI CONFIG
+LLM_PROVIDER=huggingface
+HF_API_KEY=Your_api_key
+
+# SECURITY
+# SECURITY / LIMITS
+# =========================
+MAX_QUERY_EXECUTION_TIME=10000   # in milliseconds
+MAX_RESULT_ROWS=1000
 
 Run server:
 
@@ -147,12 +175,6 @@ Request Body:
 🔹 Generate AI Hint
 POST /api/hint
 
-Request Body:
-
-{
-  "assignmentId": "123",
-  "query": "SELECT name FROM employees"
-}
 📊 Data Flow Diagram
 
 The system follows this data flow:
@@ -173,61 +195,9 @@ Results displayed in table format
 
 (Hand-drawn DFD included in submission)
 
-⚠️ Technical Challenges & Solutions
-🔹 API Route Mismatch (400 / 404 Errors)
-
-Solved by standardizing route naming and validating request body.
-
-🔹 Axios Network Errors
-
-Implemented loading states and disabled rapid multi-click.
-
-🔹 Environment Variable Misconfiguration
-
-Resolved by centralizing env config and verifying API keys.
-
-🔹 LLM API Integration
-
-Handled authentication errors and added fallback responses.
-
-🔹 UI Responsiveness
-
-Improved Monaco editor height and layout using viewport-based sizing.
-
-🧠 Learning Outcomes
-
-REST API Architecture
-
-Frontend–Backend Integration
-
-MongoDB Data Modeling
-
-Error Handling Patterns
-
-Environment Configuration
-
-Git Version Control Best Practices
-
-LLM API Integration
-
-Debugging Network Issues
-
-📈 Future Improvements
-
-User authentication system
-
-SQL execution sandbox engine
-
-Query performance analyzer
-
-Leaderboard system
-
-Deployment on AWS / Render / Vercel
-
 👨‍💻 Author
 
-Your Name
-GitHub: 
-📄 License
+Rites Maurya
 
 This project is built for educational purposes.
+**
